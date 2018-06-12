@@ -1,0 +1,5 @@
+<Ifmodule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^yiiku$ web/index.php [L]
+Options All -Indexes
+</Ifmodule>
